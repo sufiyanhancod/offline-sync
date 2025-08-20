@@ -33,7 +33,8 @@ class AppLocalizationsEs extends AppLocalizations {
   String get secondary => 'Secondary';
 
   @override
-  String get somethingWentWrong => 'Something went wrong. Try refreshing the page or checking your internet connection. We\'ll see you in a moment!';
+  String get somethingWentWrong =>
+      'Something went wrong. Try refreshing the page or checking your internet connection. We\'ll see you in a moment!';
 
   @override
   String get textForm => 'Text form';

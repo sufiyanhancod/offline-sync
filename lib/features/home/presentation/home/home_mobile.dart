@@ -76,10 +76,10 @@ class _HomeScreenMobileState extends ConsumerState<HomeScreenMobile> {
                   ]),
                 ),
                 const SizedBox(height: 8),
-                const AppDropDownForm<String>(
+                AppDropDownForm<String>(
                   name: 'dropdown',
                   label: 'Dropdown',
-                  items: [
+                  items: const [
                     DropDownItems(value: '1', child: Text('Item 1')),
                     DropDownItems(value: '2', child: Text('Item 2')),
                     DropDownItems(value: '3', child: Text('Item 3')),
